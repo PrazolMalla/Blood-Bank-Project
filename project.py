@@ -120,7 +120,7 @@ Checking the stock inventory...
             
         if(compat == 1):
            day = max(days_dif)
-           i = stock_index.index(days_dif.index(day))
+           i = stock_index[days_dif.index(day)]
            countblood = 1
                    
         if countblood == 1:
